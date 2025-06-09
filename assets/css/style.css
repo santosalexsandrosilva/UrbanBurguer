@@ -1,0 +1,83 @@
+html{
+    min-height: 100vh;
+}
+body {
+     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header,footer { 
+    background: #111;
+    color: #fff; text-align: center; 
+    padding: 1rem; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer{ 
+    margin-top: auto;
+}
+main { padding: 2rem; }
+h2 { color: #c00; }
+.produtos { 
+    display: flex;
+    flex-wrap: wrap;
+     gap: 1rem; 
+     width: 90vw;
+}
+.card { 
+    flex-shrink: 0;
+    border: 1px solid #ccc;
+    padding: 1rem;
+     border-radius: 8px;
+      width: 300px;
+ }
+.card img { width: 100%; height: 50%;
+     border-radius: 8px;
+ }
+.formulario { 
+    max-width: 400px;
+     margin: auto; 
+    padding: 2rem;
+     border: 1px solid #ccc; 
+    border-radius: 8px;
+ }
+ .login{
+    
+    color: black; 
+    text-decoration: none; 
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 10vw;
+    text-align: center;
+}
+ .novo_usuario{
+    display: inline-block;
+    text-decoration: none;
+     padding: 0.5rem 1rem;
+     font-size: 0.9rem;
+     background-color: #808080;
+     color: #fff;
+     border: 1px solid #666;
+     margin-top: 2rem;
+ }
+.pacotes{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30vw;
+}
+table, th,tr,td{
+    border: solid gray 2px;
+    border-collapse: collapse;
+}
+.logo{
+    color: #fff;
+    text-decoration: none;
+}
